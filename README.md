@@ -1,55 +1,16 @@
-# Book Finder App
+# React + Vite
 
-A **React-based web application** that lets users search and explore books using different filters like *title*, *author*, *subject*, or *other keywords*.  
-This project showcases the use of *React components*, *state management*, and *dynamic rendering* to build an interactive and responsive UI.  
-The interface is styled using *pure CSS*, making it lightweight and easy to customize.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-# Description
+Currently, two official plugins are available:
 
-The **Book Finder App** allows users to quickly search for books from a dataset or API based on their preferred category.  
-Users can choose how they want to search (by title, author, subject, or across all fields) and instantly see matching results.  
-It’s built as a beginner-friendly React project to demonstrate:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
--  Passing props and managing component state  
--  Handling user input and events (like search and Enter key press)  
--  Filtering and rendering lists dynamically  
--  Structuring a clean and modular React project  
--  Using standard CSS for layout and design
+## React Compiler
 
-# Features
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-✅ Search books by **title**, **author**, **subject**, or **all fields**  
-✅ Dropdown filter to choose search criteria  
-✅ Press **Enter** or click **Search** to trigger search  
-✅ Display a formatted list of book results  
-✅ Styled with **plain CSS** for simplicity and readability 
+## Expanding the ESLint configuration
 
-# Project Structure
-BOOK FINDER
-│
-├── book-finder
-│   ├── node_modules
-│   ├── public
-│   ├── src
-│   │   ├── assets
-│   │   └── components
-│   │       ├── BookCard.css
-│   │       ├── BookCard.jsx
-│   │       ├── BookList.css
-│   │       ├── BookList.jsx
-│   │       ├── SearchBar.css
-│   │       ├── SearchBar.jsx
-│   │
-│   │   ├── App.css
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   ├── main.jsx
-│   │
-│   ├── .gitignore
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── README.md
-│   └── vite.config.js
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
